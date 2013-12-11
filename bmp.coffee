@@ -78,7 +78,7 @@ class BMP
                 data[i++] = g
                 data[i++] = b
                 data[i++] = 255
-                
+            @pos += w - 4 * Math.floor(w / 4);
         return
         
 window.BMP = BMP
